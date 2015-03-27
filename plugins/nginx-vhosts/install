@@ -34,7 +34,7 @@ fi
 
 cat<<EOF > /etc/nginx/nginx.conf
 user www-data;
-worker_processes auto;
+worker_processes 2;
 pid /run/nginx.pid;
 
 events {
